@@ -19,5 +19,3 @@ def pokemon_name_generator(p):
 @bot.command()
 async def pokemon(ctx, pokemon_name):
     await ctx.reply(pokemon_name_generator(pokemon_name))
-
-bot.run("OTkzODEwNTgxNzU4OTM5MjE2.GGTQBm.lGXRIawRwjFhu_VBvIU2hBnT7JKqodPt93N3KY")
